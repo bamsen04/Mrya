@@ -1,0 +1,12 @@
+import "testfunc.mrya"
+
+func main(): void {
+    output.writeln("Hello, world");
+    let hello: int = 5 + 10;
+
+    output.writeln(hello);
+    let out = test("Hello", "World");
+
+    output.writeln(string.join(out, hello, 7 * 5));
+}
+

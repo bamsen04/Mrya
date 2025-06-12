@@ -1,0 +1,5 @@
+func test(arg1, arg2): string {
+    output.write(arg1);
+    output.write(arg2);
+    return string.join(arg1, arg2);
+}
